@@ -38,6 +38,11 @@ node index.js
 
 In order for the experience to function properly you will need to set up a developer app inside of your drift account for Drift to POST relevant information to your application. Please ensure you are leveraging proper scopes/subscribing to relevant webhook. [This guide will help get this set up for you](https://devdocs.drift.com/docs/quick-start).
 
+This application leverages `ngrok` as it's means to listening and digesting events from Drift. It is being leveraged in a free capacity and therefore whenever the service restarts a new randomly generated URL will be exposed. This URL will need to be updated inside of the relevant Drift Dev Application in order to function properly -- as seen below: 
+
+![Capture](https://user-images.githubusercontent.com/57994411/151228007-563fafb8-e7e2-438c-98a5-81537987e4e6.JPG)
+
+
 ## Demo of End User Experience
 ![DRIFT-VIDEO-3045098-3149673-1643076676](https://user-images.githubusercontent.com/57994411/150898234-d06c3218-c1d8-456e-a8bd-7ffccb0ede56.gif)
 
